@@ -39,7 +39,7 @@ d.dept_no = de.dept_no
 ORDER BY de.dept_no, e.last_name;
 
 --List first name, last name, and sex of each employee whose first name is Hercules 
---and whose last name begins with the letter B. Should yield 20 names 
+--and whose last name begins with the letter B. Final result yields 20 names 
 SELECT first_name, last_name, sex
 FROM employees
 WHERE first_name = 'Hercules'  AND last_name LIKE 'B%';

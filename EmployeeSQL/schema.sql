@@ -11,7 +11,6 @@ DROP TABLE IF EXISTS dept_emp;
 DROP TABLE IF EXISTS dept_manager;
 DROP TABLE IF EXISTS salaries;
 
-
 --Creating table departments (primary key dept_no). Needs to be created before dept_emp/dept_manager tables
 CREATE TABLE "departments" (
     "dept_no" VARCHAR(10)   NOT NULL,
